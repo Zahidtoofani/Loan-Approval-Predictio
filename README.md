@@ -61,9 +61,7 @@ Accuracy
 ini
 Copy code
 Accuracy = 0.9133 (91%)
-Confusion Matrix
-lua
-Copy code
+Confusion Matrix 
 [[280  43]
  [ 31 500]]
 True Positives (TP): 500 → approved correctly
