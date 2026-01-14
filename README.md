@@ -19,7 +19,7 @@ This project predicts whether a loan application will be approved or rejected ba
   - Education Level
   - Self-Employment Status
   - Number of Dependents  
-- Format: CSV (`loan_data.csv`)  
+- Format: CSV (`loan_approval_dataset.csv`)  
 
 > **Note:** `loan_id` column was removed as it is an identifier and does not contribute to prediction.
 
