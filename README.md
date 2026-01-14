@@ -57,13 +57,12 @@ Trained baseline Logistic Regression model.
 
 Model evaluation:
 
-Accuracy
-ini
-Copy code
-Accuracy = 0.9133 (91%)
-Confusion Matrix 
+Accuracy = 0.9133 (91%).
+Confusion Matrix : 
+
 [[280  43]
  [ 31 500]]
+ 
 True Positives (TP): 500 → approved correctly
 
 True Negatives (TN): 280 → rejected correctly
@@ -73,6 +72,8 @@ False Positives (FP): 43 → risky loans approved
 False Negatives (FN): 31 → good loans rejected
 
 Classification Report
+
+
 Class	Precision	Recall	F1-score	Support
 0 (Rejected)	0.90	0.87	0.88	323
 1 (Approved)	0.92	0.94	0.93	531
@@ -85,15 +86,25 @@ Balanced precision and recall for both classes → minimal risk and reliable pre
 6. Feature Importance (Logistic Regression Coefficients)
 Feature	Coefficient
 cibil_score	4.091
+
 loan_amount	1.321
+
 bank_asset_value	0.180
+
 luxury_assets_value	0.126
+
 commercial_assets_value	0.093
+
 residential_assets_value	0.044
+
 self_employed_Yes	0.015
+
 education_Not Graduate	-0.065
+
 no_of_dependents	-0.076
+
 loan_term	-0.859
+
 income_annum	-1.595
 
 Interpretation:
